@@ -26,5 +26,6 @@ sudo ./dkms-install.sh
 After this is completed successfully, you should reboot and find that your Wifi is working.
 You also want to make sure SecureBoot is Disabled in the BIOS settings or it won't let you load the unsigned self-complied kernel module.
 
-Thank you to all the support and answer I found out there on the web. Hope someone will benefit of this little note. 
+Thanks to all the support and answer I found out there on the web. 
+Hope someone will benefit of this little note. 
 Although quick wins sometimes are good, I really reccomend to search a bit out there and understand the steps.
