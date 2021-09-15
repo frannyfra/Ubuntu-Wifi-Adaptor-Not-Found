@@ -1,7 +1,8 @@
-# This consists of a note on how to fix the "Wifi Adaptor not Found" problem on Ubuntu. 
+##  This is a note on how to fix the "Wifi Adaptor not Found" problem on Ubuntu. 
 ### It is a personal note for future reference.
 
-Before getting into this steps I have searched on ***Stack Exchange*** and more fonts on the web.
+Before running the below commands, I did gather information from different sources on the web and did consult ***Stack Exchange*** .
+
 I did follow this solution and it worked for me https://askubuntu.com/questions/990378/wi-fi-not-working-on-lenovo-thinkpad-e570-realtek-rtl8821ce
 Those are the steps I have followed after logging in as a super user in the command line.
 
