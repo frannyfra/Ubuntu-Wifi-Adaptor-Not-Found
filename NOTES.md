@@ -1,7 +1,7 @@
 ##  This is a note on how to fix the "Wifi Adaptor not Found" problem in Ubuntu. 
 ### It is a personal note for future reference.
 
-Before running the below commands, I did gather information from different sources on the web and did consult ***Stack Exchange*** .
+Before running the below commands, I did gather information from different sources on the web and did consult ***Stack Exchange*** also.
 
 I did follow <a href="https://askubuntu.com/questions/990378/wi-fi-not-working-on-lenovo-thinkpad-e570-realtek-rtl8821ce" target="_blank">this</a> solution and it worked for me. 
 Below there are the steps I have followed after logging in as a **super user** in the command line.
@@ -11,6 +11,8 @@ sudo-i
 ```
 
 Run sudo -i. This will give you an interactive root shell. Note that the $ at the end of your prompt has changed to a #, indicating that you have root access. But you fall in the root home directory (/root/). From here you can run any sequence of commands as root, or run the command exit to leave the root shell.
+
+After logging as a **super user**, run the following commands:
  
 ```
 sudo apt-get install --reinstall git dkms build-essential linux-headers-$(uname -r) 
